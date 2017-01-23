@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Poly the Parrot</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>About <a href="https://twitter.com/Poly_the_Parrot">@Poly_the_Parrot</a>t</h1>
+						<p>Bringing 2003 into the recent past</p>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Content -->
+							<section id="content" class="main">
+								<h2>Bird Within, Bird Without</h2>
+								<p>The <a href="https://twitter.com/Poly_the_Parrot">@Poly_the_Parrot</a> twitter account is the logical extension of Poly's persistent behavior, taking his quirks from the game onto a wider stage.<br /><br /> 
+								Here's how it works:<br />
+								1. In game Polys collect their phrases from the crew, including automated messages from the game itself. These are placed into a list of 500 phrases that Poly has on active recall.<br />
+								2. These phrases are put into external JSON files. Each file contains 1000 entries: the 500 Poly knows in the moment, and the last 500 that Poly has most recently forgot. Because this list is updated at the start of every round, a rough idea of when phrases were learned can be assumed.<br />
+								3. Every so often an external script reads all the Poly JSON files and merges them together into one big overmind file composed of all the phrases of all the Polys in existence.<br />
+								4. This overmind file is run against what already exists in the twitter Poly's feed. Some very light culling is also practiced, but the grand majority of phrases survive.<br />
+								5. The surviving phrases are given a very quick once over by yours truly to make sure nothing horrible got through. It's very quick so occasionally things will slip by. I'll also allow really objectionable things to occasionally get through if they happen to be funny.<br />
+								6. What remains is shuffled and then fed to the twitter bot, to be published every 30 minutes.<br />
+								
+								<h2>How much bird are we talking here?</h2>
+								<p>In the average day the Polys of the two servers currently being monitored will learn about a hundred phrases each. At a tweet every half hour the Poly twitter will post 48 of those 200 tweets every day. As you can see Poly produces plenty of content and will probably never run dry. Every so often I clear the backlog so the content can be kept relatively fresh.<br /><br />
+								<h2>If you have so much content logged why does the bot only run every 30 minutes?</h2>
+								<p>I don't want to spam people! When this twitter launched it actually only ran once an hour, but I quickly bumped it up once I realized how much content there really was. I could probably get away with running Poly every 10 minutes, or even every <b>5</b> but then your feeds would drown in parrots, and that's not great.</p>
+								<ul class="actions">
+									<li><a href="index.html" class="button">Back To The Future</a></li>
+								</ul>
+							</section>
+
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
