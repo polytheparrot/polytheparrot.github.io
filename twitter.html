@@ -33,13 +33,13 @@
 								<h2>Bird Within, Bird Without</h2>
 								<p>The <a href="https://twitter.com/Poly_the_Parrot">@Poly_the_Parrot</a> twitter account is the logical extension of Poly's persistent behavior, taking his quirks from the game onto a wider stage.<br /><br /> 
 								Here's how it works:<br />
-								1. In game Polys collect their phrases from the crew, including automated messages from the game itself. These are placed into a list of 500 phrases that Poly has on active recall.<br />
-								2. These phrases are put into external JSON files. Each file contains 1000 entries: the 500 Poly knows in the moment, and the last 500 that Poly has most recently forgot. Because this list is updated at the start of every round, a rough idea of when phrases were learned can be assumed.<br />
-								3. Every so often an external script reads all the Poly JSON files and merges them together into one big overmind file composed of all the phrases of all the Polys in existence.<br />
-								4. This overmind file is run against what already exists in the twitter Poly's feed. Some very light culling is also practiced, but the grand majority of phrases survive.<br />
-								5. The surviving phrases are given a very quick once over by yours truly to make sure nothing horrible got through. It's very quick though so occasionally things will slip by. Nothing said by Poly is personally endorsed or approved of by me, so don't call me a racist if Poly drops some questionable tastes in his feed.<br />
-								6. What remains is shuffled and then fed to the twitter bot, to be published every 30 minutes.<br />
-								
+								<ol>
+								<li>In game Polys collect their phrases from the crew, including automated messages from the game itself. These are placed into a list of 500 phrases that Poly has on active recall.</li><br />
+								<li>These phrases are put into external JSON files. Each file contains 1000 entries: the 500 Poly knows in the moment, and the last 500 that Poly has most recently forgot. Because this list is updated at the start of every round, a rough idea of when phrases were learned can be assumed.</li><br />
+								<li>Every so often an external script reads all the Poly JSON files and merges them together into one big overmind file composed of all the phrases of all the Polys in existence.</li><br />
+								<li>This overmind file is run against what already exists in the twitter Poly's feed. Some very light culling is also practiced, but the grand majority of phrases survive.</li><br />
+								<li>What remains is shuffled and then fed to the twitter bot, to be published every 30 minutes.</li><br />
+								</ol>
 								<h2>How much bird are we talking here?</h2>
 								<p>In the average day the Polys of the two servers currently being monitored will learn about a hundred phrases each. At a tweet every half hour the Poly twitter will post 48 of those 200 tweets every day. As you can see Poly produces plenty of content and will probably never run dry. Every so often I clear the backlog so the content can be kept relatively fresh.<br /><br />
 								<h2>If you have so much content logged why does the bot only run every 30 minutes?</h2>
